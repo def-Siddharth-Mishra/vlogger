@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'data/source/remote/api_client.dart';
-import 'features/user_management/presentation/bloc/post_bloc.dart';
-import 'features/user_management/presentation/bloc/todo_bloc.dart';
-import 'features/user_management/presentation/bloc/user_bloc.dart';
+import 'features/user_management/presentation/bloc/post/post_bloc.dart';
+import 'features/user_management/presentation/bloc/todo/todo_bloc.dart';
+import 'features/user_management/presentation/bloc/user/user_bloc.dart';
 import 'features/user_management/presentation/screens/user_list_screen.dart';
 
 void main() {

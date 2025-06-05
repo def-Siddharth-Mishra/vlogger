@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../data/entities/user.dart';
-import '../bloc/post_bloc.dart';
-import '../bloc/post_event.dart';
-import '../bloc/post_state.dart';
-import '../bloc/todo_bloc.dart';
-import '../bloc/todo_event.dart';
-import '../bloc/todo_state.dart';
+import '../bloc/post/post_bloc.dart';
+import '../bloc/post/post_event.dart';
+import '../bloc/post/post_state.dart';
+import '../bloc/todo/todo_bloc.dart';
+import '../bloc/todo/todo_event.dart';
+import '../bloc/todo/todo_state.dart';
 import 'create_post_screen.dart';
 
 class UserDetailScreen extends StatelessWidget {

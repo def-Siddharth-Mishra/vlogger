@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../../../data/entities/todo.dart';
+import '../../../../../data/entities/todo.dart';
 
 abstract class TodoState extends Equatable {
   const TodoState();

@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../../../data/entities/post.dart';
+import '../../../../../data/entities/post.dart';
 
 abstract class PostEvent extends Equatable {
   const PostEvent();

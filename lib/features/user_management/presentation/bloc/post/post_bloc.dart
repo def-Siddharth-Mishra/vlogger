@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../data/entities/post.dart';
-import '../../../../data/source/remote/api_client.dart';
+import '../../../../../data/entities/post.dart';
+import '../../../../../data/source/remote/api_client.dart';
 import 'post_event.dart';
 import 'post_state.dart';
 

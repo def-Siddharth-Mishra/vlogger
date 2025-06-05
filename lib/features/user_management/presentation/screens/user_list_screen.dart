@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../bloc/user_bloc.dart';
-import '../bloc/user_event.dart';
-import '../bloc/user_state.dart';
+import '../bloc/user/user_bloc.dart';
+import '../bloc/user/user_event.dart';
+import '../bloc/user/user_state.dart';
 import '../widgets/custom_fab.dart';
 import '../widgets/search_bar.dart';
 import 'create_post_screen.dart';

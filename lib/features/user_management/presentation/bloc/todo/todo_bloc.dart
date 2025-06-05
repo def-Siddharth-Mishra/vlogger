@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:vlogger/features/user_management/presentation/bloc/todo/todo_event.dart';
+import 'package:vlogger/features/user_management/presentation/bloc/todo/todo_state.dart';
 
-import '../../../../data/source/remote/api_client.dart';
-import 'todo_event.dart';
-import 'todo_state.dart';
+import '../../../../../data/source/remote/api_client.dart';
 
 class TodoBloc extends Bloc<TodoEvent, TodoState> {
   final ApiClient apiClient;

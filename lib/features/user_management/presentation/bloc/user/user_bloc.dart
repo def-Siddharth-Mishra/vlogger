@@ -1,9 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:vlogger/features/user_management/presentation/bloc/user/user_event.dart';
+import 'package:vlogger/features/user_management/presentation/bloc/user/user_state.dart'
+    show UserState, UserInitial, UserLoading, UserLoaded, UserError;
 
-import '../../../../data/entities/user.dart';
-import '../../../../data/source/remote/api_client.dart';
-import 'user_event.dart';
-import 'user_state.dart';
+import '../../../../../data/entities/user.dart';
+import '../../../../../data/source/remote/api_client.dart';
 
 class UserBloc extends Bloc<UserEvent, UserState> {
   final ApiClient apiClient;
