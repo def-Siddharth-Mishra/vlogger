@@ -14,7 +14,7 @@ A Flutter application for user management utilizing the BLoC pattern and clean c
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/vlogger.git
+    git clone https://github.com/def-Siddharth-Mishra/vlogger.git
     ```
 
 2. Install dependencies:
@@ -27,6 +27,10 @@ A Flutter application for user management utilizing the BLoC pattern and clean c
 
     ```bash
     flutter run
+    ```
+4. Generate code for Retrofit and Freezed:
+    ```bash
+    flutter pub run build_runner build --delete-conflicting-outputs
     ```
 
 ## Architecture
