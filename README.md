@@ -1,16 +1,52 @@
-# vlogger
+# Vlogger Flutter Project
 
-A new Flutter project.
+A Flutter application for user management utilizing the BLoC pattern and clean code practices. The app integrates with DummyJSON API to fetch users, posts, and todos. Features include infinite scrolling, search functionality, and user detail screens.
 
-## Getting Started
+## Features
+- User List Screen with avatar, name, and email
+- Infinite scrolling with real-time search
+- Fetch and display user posts and todos
+- Create Post Screen for adding new posts locally
+- Error handling and loading indicators
 
-This project is a starting point for a Flutter application.
+## Setup
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    ```bash
+    git clone https://github.com/your-username/vlogger.git
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Install dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+3. Run the app:
+
+    ```bash
+    flutter run
+    ```
+
+## Architecture
+
+The project follows a clean architecture with the following structure:
+- **Data Layer**: Handles API calls, response parsing, and mapping to entities.
+- **Domain Layer**: Contains business logic and use cases.
+- **Presentation Layer**: Displays UI using BLoC for state management.
+
+## Dependencies
+- `flutter_bloc`: State management with BLoC pattern
+- `retrofit`: API client generation
+- `get_it` & `injectable`: Dependency injection
+- `freezed`: Immutable data classes
+
+## Testing
+
+Unit tests are available for BLoC and repository layers.
+
+To run tests:
+
+```bash
+flutter test
